@@ -1,0 +1,117 @@
+body {
+    font-family: Open Sans,Arial;
+    color: #454545;
+    font-size: 16px;
+    padding: 1em;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 1.4;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto
+}
+
+html:has(#contrast:checked) body {
+    color: #050505
+}
+
+html:has(#contrast:checked) blockquote {
+    color: #11151a
+}
+
+html:has(#contrast:checked) blockquote:before {
+    color: #262626
+}
+
+html:has(#contrast:checked) a {
+    color: #03f
+}
+
+html:has(#contrast:checked) a:visited {
+    color: #7d013e
+}
+
+html:has(#contrast:checked) span.wr {
+    color: #800
+}
+
+html:has(#contrast:checked) span.mfw {
+    color: #4d0000
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+html, body {
+  height: 100%;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.spacer {
+    padding: 2px;
+}
+
+#body {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1080px;
+    margin: 0 auto;
+    background-color: White;
+    min-height: 100%;
+    border-left: 15px solid #F0F0F0;
+    border-right: 12px solid #F0F0F0;
+}
+
+h2 {
+    color: rgb(53, 53, 53);
+}
+
+.distinct-cutout {
+    border-radius: 5px;
+    background-color: #F0F0F0;
+    padding: 4px;
+}
+
+div.fancyPositioning div.item-left {
+    float: left;
+    width: 207;
+    overflow: hidden;
+    margin-right: 1em;
+}
+
+div.fancyPositioning div.item-right {
+    float: left;
+    width: 70%;
+}
+
+div.fancyPositioning:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.distinct-cutout > h3 {
+    margin: 1px;
+}
+
+#neetcomputerdiv{
+    padding-left: 8px;
+}
+
+figure {
+    margin: 0px;
+    width: 207px;
+}
+
+#neet_graphic {
+    border-radius: 5px;
+    width: 207px;
+    height: 258px;
+}
+
+#neetdesc {
+    margin: 3px;
+}
