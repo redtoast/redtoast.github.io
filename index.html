@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- deeply inspired by and plagerised from https://thebestmotherfucking.website/ -->
     <link rel="stylesheet" type="text/css" href="homepage.css" />
     <link rel="icon" href="https://red-toast.net/assets/icon.png">
     <meta name="hibp-verify" content="dweb_53difgiittq6gd5ldaxxci10" />
+    <title>Red-toast Homepage</title>
+    <script>
+        function smartFormat() {
+            parentElement = document.getElementsByClassName("fancyPositioning")[0]
+            modDesc = document.getElementsByClassName("item-right")[0]
+
+            modDesc.style.width = (parentElement.offsetWidth - 227) + 'px'
+        }
+
+        window.onresize = smartFormat;
+        window.onload = smartFormat;
+    </script>
 </head>
-<body>
-<h1><b>UNDER CONSTRUCTION</b></h1>
-<a href="https://www.red-toast.net/NeetDocumentation/">Neet Computers</a>
+<body style="margin-top: 0; margin-bottom: 0;">
+    <div id="body">
+        <div id="content">
+            <div>
+                <h1>Welcome to my corner of the internet</h1>
+            </div>
+            <div>
+                <h2>Greetings</h2>
+                <p>
+                    This is the office website of RedToast, Red Toast, or redtoastneedsbutter. i have my projects i like enough to publicly release here and anything else i find interesting!
+                </p>
+            </div>
+            <div class="spacer"></div>
+            <div>
+                <h1>
+                    Projects!
+                </h1>
+                <p>
+                    I have a very small list of one project at current, but this is where you will find anything else i make + NEET computers
+                </p>
+            </div>
+            <div class="spacer"></div>
+            <div class="distinct-cutout" id="neetcomputerdiv">
+                <h3>NEET computers</h3>
+                <div class="fancyPositioning">
+                    <div class="item-left">
+                        <figure>
+                            <a href="https://www.red-toast.net/NeetDocumentation/home.html"><img id="neet_graphic" src="https://github.com/redtoast/NeetComputers/blob/live-1.21.1/assets_dev/NC_backround_small.gif?raw=true" alt="Graphic for mod project"></a>
+                            <figcaption>A Computer Block</figcaption>
+                        </figure>
+                    </div>
+                    <div class="item-right">
+                        <p id="neetdesc">NEET computers is a Minecraft mod that adds well cleverly implemented computers into the Minecraft world capable of running custom scripts and interacting with the world around them.</p>
+                        <p>The mod includes a emphasis on making computers feel well integrated into the world visualy and mechanically The ingame computers simulate events, lua scripts, peripheral devices, full files systems (with OS's plural that can be edited live), complete Computer Craft compatibility (as of now peripherals kinda work, craft os emulation soon), pixel graphics, HTTPS (soon), and <a href="https://www.red-toast.net/NeetDocumentation">full documentation</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
