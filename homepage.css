@@ -69,6 +69,14 @@ h2 {
     color: rgb(53, 53, 53);
 }
 
+a {
+    color: #07a
+}
+
+a:visited {
+    color: #941352
+}
+
 .distinct-cutout {
     border-radius: 5px;
     background-color: #F0F0F0;
@@ -114,4 +122,5 @@ figure {
 
 #neetdesc {
     margin: 3px;
+
 }
